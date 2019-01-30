@@ -1,0 +1,13 @@
+package com.qa.service;
+
+import java.util.Map;
+
+public interface ClassService  {
+
+	String getAllClasses(String classID);
+	String deleteClass(int accountID);
+	String updateClass(int accountID, String account);
+	String createClass(String account);
+}
+
+

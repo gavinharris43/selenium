@@ -1,0 +1,2 @@
+INSERT INTO CLAZZ (classroomID,trainer,trainees)VALUES("1","Gavin Harris","")
+INSERT INTO TRAINEE (traineeName,traineeID,classroomID)VALUES("Jim","1","1")

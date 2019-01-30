@@ -1,0 +1,43 @@
+package com.qa.service;
+
+import javax.inject.Inject;
+
+import org.apache.log4j.Logger;
+
+import com.google.gson.Gson;
+import com.qa.persistence.repository.TraineeRepository;
+
+public class AccountServiceImpl implements TraineeService {
+
+	@Inject
+	private TraineeRepository repo;
+
+
+	@Override
+	public String getAllTraineesFromClass(String classID) {
+		// TODO Auto-generated method stub
+		return repo.getAllTraineesFromClass(classID);
+	}
+
+	@Override
+	public String deleteTrainee(int ID) {
+		// TODO Auto-generated method stub
+		return repo.getAllTraineesFromClass(classID);
+	}
+
+	@Override
+	public String updateTrainee(int ID, String trainee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String createTrainee(String trainee) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public void setRepo(TraineeRepository repo) {
+		this.repo = repo;
+	}
+
+}

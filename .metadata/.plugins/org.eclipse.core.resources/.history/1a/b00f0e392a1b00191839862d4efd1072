@@ -1,0 +1,2 @@
+INSERT INTO Class (classroomID,trainer,trainees)VALUES("1","Gavin Harris","trainees")
+INSERT INTO Trainee (traineeName,traineeID,classroomID)VALUES("Jim","1","1")
